@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-This is the video that I and my partner recorded for this project:
+This is the video that I recorded for this project:
 [LiveDemo]()
 
 ## Getting Started
@@ -69,7 +69,7 @@ To test for add and remove a task, you need to install Jest or run `npm install'
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/marijanbrvar/CAP_Metrics_App/issues).
+Feel free to check the [issues page](https://github.com/pasytchangwa/CAP_Metrics_App/issues).
 
 ## Show your support
 
@@ -81,4 +81,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/marijanbrvar/CAP_Metrics_App/blob/feature/LICENSE) licensed.
+This project is [MIT](https://github.com/pasytchangwa/CAP_Metrics_App/blob/feature/LICENSE) licensed.
