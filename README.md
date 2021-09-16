@@ -17,7 +17,7 @@
 
 ## Project Description Video
 
-[Loom]()
+[Loom](https://user-images.githubusercontent.com/64914462/133702147-578cd1de-7421-403f-99ee-92855f946f58.mp4)
 
 ## Getting Started
 
