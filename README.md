@@ -13,9 +13,11 @@
 - Redux
 
 ## Live Demo
+[LiveDemo](react-capstone-market-capital.netlify.app)
 
-This is the video that I recorded for this project:
-[LiveDemo]()
+## Project Description Video
+
+[Loom]()
 
 ## Getting Started
 
