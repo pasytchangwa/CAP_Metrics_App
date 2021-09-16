@@ -4,7 +4,7 @@
 
 > This React capstone project (remember what are they?)is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-![Screenshot from 2021-09-16 22-02-25](https://user-images.githubusercontent.com/64914462/133670486-47b975f9-7e63-4bbd-9f48-3b0e178620e4.png)
+![Screenshot from 2021-09-16 22-11-47](https://user-images.githubusercontent.com/64914462/133671415-5b732153-73d1-44a4-a1da-b62bbbf6a31e.png)
 
 
 ## Built With
