@@ -4,7 +4,8 @@
 
 > This React capstone project (remember what are they?)is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-![**screenshot––**]()
+![Screenshot from 2021-09-16 22-02-25](https://user-images.githubusercontent.com/64914462/133670486-47b975f9-7e63-4bbd-9f48-3b0e178620e4.png)
+
 
 ## Built With
 
@@ -45,7 +46,7 @@ To run code locally, please follow steps belove
 2. run `npm install`
 3. then run `npm run start`
 
-webpack will automatically open the default browser, and you can start using the TV Show web app. All data is remotely over 3rd party API.
+webpack will automatically open the default browser, and you can start using the market capitalisation app. All data is remotely over 3rd party API.
 
 ### Usage
 
