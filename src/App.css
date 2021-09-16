@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #cf4278;
+  font-size: 1.3rem;
+}
+
+.controller {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.main-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  align-items: center;
+  text-align: end;
+  background-color: #fc5193;
+  background-size: 200px;
+  background-position: 15%;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.main-title h1 {
+  text-transform: uppercase;
+}
+
+.statistics {
+  background-color: #cf4278ef;
+  text-transform: uppercase;
+  padding: 0.3rem;
+}
+
+.categories-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fc5193;
+}
+
+.category {
+  height: 250px;
+  font-size: 1.5rem;
+  background-size: 40%;
+  background-position: top 15% right 50%;
+  background-repeat: no-repeat;
+}
+
+.category:nth-child(4n-2),
+.category:nth-child(4n-1) {
+  background-color: #cf4278;
+}
+
+.link {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  border: 1px solid #fff;
+}
+
+.exchange {
+  margin-top: auto;
+  text-align: right;
+}
+
+.marketCap {
+  font-size: 0.9rem;
+}
+
+.companylist {
+  background-color: #fc5193;
+}
+
+.list-item {
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.companylist li:nth-child(even) {
+  background-color: #cf4278;
+}
+
+.companyListCap {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fleche {
+  margin-left: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-filter {
+  background-color: #cf4278;
+  border: none;
+  outline: none;
+  padding: 0.3rem 0.5rem;
+  width: 100%;
+  border-bottom: 1px solid #eb81a9;
 }
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+@media screen and (max-width: 540px) {
+  .categories-list {
+    grid-template-columns: 1fr;
+  }
+
+  .category:nth-child(even) {
+    background-color: #fc5193;
+  }
+
+  .category:nth-child(odd) {
+    background-color: #cf4278;
+  }
+} 
