@@ -11,7 +11,7 @@ const Head = ({ title, count, filter }) => (
       <NavLink to="/"><IoIosArrowBack className="controller" /></NavLink>
       <span>
         {title}
-       &nbsp;capitalisation
+       &nbsp;capital
       </span>
       <div>
         <IoMdMic className="controller" />
