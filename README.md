@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Redux Capstone project - Metrics Webapp
 
-## Available Scripts
+> This React capstone project (remember what are they?)is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-In the project directory, you can run:
+![Screenshot from 2021-09-16 22-11-47](https://user-images.githubusercontent.com/64914462/133671415-5b732153-73d1-44a4-a1da-b62bbbf6a31e.png)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- Redux
 
-### `yarn test`
+## Live Demo
+[LiveDemo](https://react-capstone-market-capital.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Description Video
 
-### `yarn build`
+[Loom](https://user-images.githubusercontent.com/64914462/133703594-92a8cf9e-2490-4ad6-8315-d691e30a5739.mp4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Chrome browser
+- Node v14.XX >
+- npm (usually already installed with current node version)
 
-### `yarn eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+e link, you will be able to add a task to the default job list**immediately
+**Otherwise, you can create a new list in the most left input field and add a new task to the current list.**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running, follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Chrome browser
+- Node v14.XX >
+- npm (usually already installed with current node version)
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run code locally, please follow steps belove
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. `git@github.com:pasytchangwa/CAP_Metrics_App.git && cd CAP_Metrics_App`
+2. run `npm install`
+3. then run `npm run start`
 
-### Code Splitting
+webpack will automatically open the default browser, and you can start using the market capitalisation app. All data is remotely over 3rd party API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+At home page pres on 'hart' and like will be recorded
+The modal is open to finding details and the form to live your comment or read other people's comments by clicking on the comment button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run tests
 
-### Making a Progressive Web App
+To test for add and remove a task, you need to install Jest or run `npm install'
+`npm run test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+👤 Sylvestre Tc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@pasytchangwa](https://github.com/pasytchangwa)
+- Twitter: [@twitterhandle](https://twitter.com/Sylvest10415595)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pagkeusylvestre/)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions, issues, and feature requests are welcome!
 
-### `yarn build` fails to minify
+Feel free to check the [issues page](https://github.com/pasytchangwa/CAP_Metrics_App/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
+
+## 📝 License
+
+This project is [MIT](https://github.com/pasytchangwa/CAP_Metrics_App/blob/feature/LICENSE) licensed.
