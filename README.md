@@ -13,7 +13,7 @@
 - Redux
 
 ## Live Demo
-[LiveDemo](react-capstone-market-capital.netlify.app)
+[LiveDemo](https://react-capstone-market-capital.netlify.app/)
 
 ## Project Description Video
 
